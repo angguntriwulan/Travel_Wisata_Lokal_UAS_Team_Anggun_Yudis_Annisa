@@ -80,13 +80,6 @@ class _SearchScreenState extends State<SearchScreen> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        leading: IconButton(
-          icon: Icon(
-            Icons.arrow_back_ios_new_rounded,
-            color: colorScheme.onSurface,
-          ),
-          onPressed: () => Navigator.pop(context),
-        ),
       ),
       body: Column(
         children: [
