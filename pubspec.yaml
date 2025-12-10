@@ -1,0 +1,59 @@
+name: travel_wisata_lokal
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0+2
+
+environment:
+  # Rentang SDK yang stabil
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Utilitas
+  cupertino_icons: ^1.0.2
+  # DIKOREKSI kembali ke versi yang disarankan oleh sistem
+  intl: ^0.20.2 
+  permission_handler: ^11.3.1
+
+  # Database (Tugas Anggota 4)
+  sqflite: ^2.3.4
+  sqflite_common_ffi: ^2.3.4
+  sqflite_common_ffi_web: ^0.4.4+2
+  path: ^1.8.3
+
+  # Maps & Lokasi (Tugas Anggota 4 & 5)
+  google_maps_flutter: ^2.6.1
+
+  # Gambar (Tugas Anggota 3 & 5)
+  image_picker: ^1.1.2
+  uuid: ^4.5.2
+  shared_preferences: ^2.2.5 
+  path_provider: ^2.1.5
+  flutter_image_compress: ^2.4.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0 
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/thumb.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/thumb.jpg"
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: AppFont
+      fonts:
+        - asset: assets/fonts/MyFont-Regular.ttf
+        - asset: assets/fonts/MyFont-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/logo/icon.png
