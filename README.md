@@ -34,13 +34,13 @@ Berisi daftar wisata dengan pencarian, filter, dan kartu informasi wisata.
 ### Light Mode
 
 <p align="center">
-  <img src="assets/images/home_light.png" width="230">
+  <img src="screenshots/putih.jpeg" width="230">
 </p>
 
 ### Dark Mode
 
 <p align="center">
-  <img src="assets/images/home_dark.png" width="230">
+  <img src="screenshots/gelap.jpeg" width="230">
 </p>
 
 ---
@@ -50,7 +50,7 @@ Berisi daftar wisata dengan pencarian, filter, dan kartu informasi wisata.
 Menampilkan detail lengkap seperti foto, deskripsi, rating, harga tiket, dan jam operasional.
 
 <p align="center">
-  <img src="assets/images/detail.png" width="230">
+  <img src="screenshots/detail.jpeg" width="230">
 </p>
 
 ---
@@ -60,7 +60,7 @@ Menampilkan detail lengkap seperti foto, deskripsi, rating, harga tiket, dan jam
 Menampilkan lokasi semua tempat wisata dalam satu peta, serta lokasi pengguna saat ini.
 
 <p align="center">
-  <img src="assets/images/maps.png" width="230">
+  <img src="screenshots/peta.jpeg" width="230">
 </p>
 
 ---
@@ -70,7 +70,7 @@ Menampilkan lokasi semua tempat wisata dalam satu peta, serta lokasi pengguna sa
 Form untuk menambah atau mengubah data wisata, termasuk memilih titik koordinat melalui peta.
 
 <p align="center">
-  <img src="assets/images/form.png" width="230">
+  <img src="screenshots/tambah.jpeg" width="230">
 </p>
 
 ---
